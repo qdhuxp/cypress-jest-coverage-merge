@@ -16,7 +16,7 @@ function runCommand(command, log = true) {
 
 function fsCallback(err) {
     if (err) {
-        console.log(err);
+        console.log(chalk.red(err));
     }
 }
 
