@@ -27,5 +27,6 @@
   "homepage": "https://github.com/qdhuxp/cypress-jest-coverage-merge#readme",
   "dependencies": {
     "chalk": "^4.1.0"
-  }
+  },
+  "devDependencies": {}
 }

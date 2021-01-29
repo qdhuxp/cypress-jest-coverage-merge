@@ -26,4 +26,4 @@ For better compatibility with multiple OS(Windows/Linux), this project uses node
     ```
 3. Run your Cypress tests and output coverage to a `tests/coverage/cypress/` directory.
 4. Run your Jest tests and output coverage to a `tests/coverage/jest` directory.
-5. Run npx cypress-jest-coverage-merge and check the `tests/coverage/reports` directory for the merged report!
+5. Run `npx cypress-jest-coverage-merge` and check the `tests/coverage/reports` directory for the merged report!
