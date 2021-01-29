@@ -1,0 +1,1 @@
+# cypress-jest-coverage-merge
