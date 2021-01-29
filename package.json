@@ -1,0 +1,31 @@
+{
+  "name": "cypress-jest-coverage-merge",
+  "version": "1.0.0",
+  "description": "A helper to merge Cypress and Jest coverage reports into one report file.",
+  "main": "index.js",
+  "bin": {
+    "cypress-jest-coverage-merge": "bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cypress",
+    "jest",
+    "tests",
+    "nyc"
+  ],
+  "author": "qdhuxp",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qdhuxp/cypress-jest-coverage-merge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/qdhuxp/cypress-jest-coverage-merge/issues"
+  },
+  "homepage": "https://github.com/qdhuxp/cypress-jest-coverage-merge#readme",
+  "dependencies": {
+    "chalk": "^4.1.0"
+  }
+}
