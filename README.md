@@ -20,7 +20,11 @@ For better compatibility with multiple OS(Windows/Linux), this project uses node
     ```
     ...
     "nyc": {
-            "report-dir": "tests/coverage/cypress"
+        "report-dir": "tests/coverage/cypress",
+        "reporter": [
+               "lcov",
+               "json"
+           ]
         }
     ...
     ```

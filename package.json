@@ -1,6 +1,6 @@
 {
   "name": "cypress-jest-coverage-merge",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A helper to merge Cypress and Jest coverage reports into one report file.",
   "main": "index.js",
   "bin": {
