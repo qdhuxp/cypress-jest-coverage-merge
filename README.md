@@ -6,8 +6,15 @@ This script is inspired by this example of merging Cypress & Jest reports: https
 For better compatibility with multiple OS(Windows/Linux), this project uses nodejs APIs to handle files, such as copy/move/mkdir etc.
 
 ## Usage
-
-1. configure jest.config.js to set jest coverage report directory to `tests/coverage/jest`:
+1. Install
+    ```javascript
+    npm i -D cypress-jest-coverage-merge
+    ```
+    Or
+    ```javascript
+    yarn add -D cypress-jest-coverage-merge
+    ```
+2. configure jest.config.js to set jest coverage report directory to `tests/coverage/jest`:
     ```
     ...
     // Indicates whether the coverage information should be collected while executing the test
@@ -16,7 +23,7 @@ For better compatibility with multiple OS(Windows/Linux), this project uses node
     coverageDirectory: '<rootDir>/tests/coverage/jest',
     ...
     ```
-2. configure `nyc` in `package.json` to set Cypress coverage report directory to `tests/coverage/cypress`:
+3. configure `nyc` in `package.json` to set Cypress coverage report directory to `tests/coverage/cypress`:
     ```
     ...
     "nyc": {
@@ -29,5 +36,5 @@ For better compatibility with multiple OS(Windows/Linux), this project uses node
     ...
     ```
 3. Run your Cypress tests and output coverage to a `tests/coverage/cypress/` directory.
-4. Run your Jest tests and output coverage to a `tests/coverage/jest` directory.
-5. Run `npx cypress-jest-coverage-merge` and check the `tests/coverage/reports` directory for the merged report!
+5. Run your Jest tests and output coverage to a `tests/coverage/jest` directory.
+6. Run `npx cypress-jest-coverage-merge` and check the `tests/coverage/reports` directory for the merged report!
