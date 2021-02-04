@@ -45,7 +45,7 @@ function mergeReport() {
     fs.rename('coverage.json', `.nyc_output/out.json`, fsCallback);
 
     // Create lcov report and output to coverage directory
-    runCommand(`npx nyc report --reporter lcov --reporter html --report-dir ${reportPath}/reports`);
+    runCommand(`npx nyc report --reporter lcov --reporter json --report-dir ${reportPath}/reports`);
 
     console.log(chalk.green.bold('Merged your Cypress & Jest reports successfully!'));
 }
